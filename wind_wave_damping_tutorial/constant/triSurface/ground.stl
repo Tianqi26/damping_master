@@ -1,0 +1,114 @@
+solid shape, STL ascii file, created with Open CASCADE Technology
+ facet normal -4.472136e-01 0.000000e+00 8.944272e-01
+   outer loop
+     vertex 1.100000e+02 0.000000e+00 5.000000e+00
+     vertex 1.000000e+02 1.000000e+02 0.000000e+00
+     vertex 1.000000e+02 0.000000e+00 0.000000e+00
+   endloop
+ endfacet
+ facet normal -4.472136e-01 0.000000e+00 8.944272e-01
+   outer loop
+     vertex 1.100000e+02 0.000000e+00 5.000000e+00
+     vertex 1.100000e+02 1.000000e+02 5.000000e+00
+     vertex 1.000000e+02 1.000000e+02 0.000000e+00
+   endloop
+ endfacet
+ facet normal -7.071068e-01 0.000000e+00 7.071068e-01
+   outer loop
+     vertex 1.120000e+02 0.000000e+00 7.000000e+00
+     vertex 1.100000e+02 1.000000e+02 5.000000e+00
+     vertex 1.100000e+02 0.000000e+00 5.000000e+00
+   endloop
+ endfacet
+ facet normal -7.071068e-01 0.000000e+00 7.071068e-01
+   outer loop
+     vertex 1.120000e+02 0.000000e+00 7.000000e+00
+     vertex 1.120000e+02 1.000000e+02 7.000000e+00
+     vertex 1.100000e+02 1.000000e+02 5.000000e+00
+   endloop
+ endfacet
+ facet normal 0.000000e+00 0.000000e+00 1.000000e+00
+   outer loop
+     vertex 2.400000e+02 0.000000e+00 7.000000e+00
+     vertex 1.120000e+02 1.000000e+02 7.000000e+00
+     vertex 1.120000e+02 0.000000e+00 7.000000e+00
+   endloop
+ endfacet
+ facet normal 0.000000e+00 -0.000000e+00 1.000000e+00
+   outer loop
+     vertex 2.400000e+02 0.000000e+00 7.000000e+00
+     vertex 2.400000e+02 1.000000e+02 7.000000e+00
+     vertex 1.120000e+02 1.000000e+02 7.000000e+00
+   endloop
+ endfacet
+ facet normal 1.000000e+00 0.000000e+00 0.000000e+00
+   outer loop
+     vertex 2.400000e+02 0.000000e+00 0.000000e+00
+     vertex 2.400000e+02 1.000000e+02 7.000000e+00
+     vertex 2.400000e+02 0.000000e+00 7.000000e+00
+   endloop
+ endfacet
+ facet normal 1.000000e+00 0.000000e+00 0.000000e+00
+   outer loop
+     vertex 2.400000e+02 0.000000e+00 0.000000e+00
+     vertex 2.400000e+02 1.000000e+02 0.000000e+00
+     vertex 2.400000e+02 1.000000e+02 7.000000e+00
+   endloop
+ endfacet
+ facet normal 0.000000e+00 0.000000e+00 -1.000000e+00
+   outer loop
+     vertex 1.000000e+02 0.000000e+00 0.000000e+00
+     vertex 2.400000e+02 1.000000e+02 0.000000e+00
+     vertex 2.400000e+02 0.000000e+00 0.000000e+00
+   endloop
+ endfacet
+ facet normal 0.000000e+00 0.000000e+00 -1.000000e+00
+   outer loop
+     vertex 1.000000e+02 0.000000e+00 0.000000e+00
+     vertex 1.000000e+02 1.000000e+02 0.000000e+00
+     vertex 2.400000e+02 1.000000e+02 0.000000e+00
+   endloop
+ endfacet
+ facet normal 0.000000e+00 -1.000000e+00 0.000000e+00
+   outer loop
+     vertex 2.400000e+02 0.000000e+00 0.000000e+00
+     vertex 1.120000e+02 0.000000e+00 7.000000e+00
+     vertex 1.100000e+02 0.000000e+00 5.000000e+00
+   endloop
+ endfacet
+ facet normal -0.000000e+00 -1.000000e+00 -0.000000e+00
+   outer loop
+     vertex 2.400000e+02 0.000000e+00 7.000000e+00
+     vertex 1.120000e+02 0.000000e+00 7.000000e+00
+     vertex 2.400000e+02 0.000000e+00 0.000000e+00
+   endloop
+ endfacet
+ facet normal 0.000000e+00 -1.000000e+00 0.000000e+00
+   outer loop
+     vertex 2.400000e+02 0.000000e+00 0.000000e+00
+     vertex 1.100000e+02 0.000000e+00 5.000000e+00
+     vertex 1.000000e+02 0.000000e+00 0.000000e+00
+   endloop
+ endfacet
+ facet normal 0.000000e+00 1.000000e+00 0.000000e+00
+   outer loop
+     vertex 2.400000e+02 1.000000e+02 0.000000e+00
+     vertex 1.100000e+02 1.000000e+02 5.000000e+00
+     vertex 1.120000e+02 1.000000e+02 7.000000e+00
+   endloop
+ endfacet
+ facet normal 0.000000e+00 1.000000e+00 0.000000e+00
+   outer loop
+     vertex 2.400000e+02 1.000000e+02 7.000000e+00
+     vertex 2.400000e+02 1.000000e+02 0.000000e+00
+     vertex 1.120000e+02 1.000000e+02 7.000000e+00
+   endloop
+ endfacet
+ facet normal 0.000000e+00 1.000000e+00 0.000000e+00
+   outer loop
+     vertex 2.400000e+02 1.000000e+02 0.000000e+00
+     vertex 1.000000e+02 1.000000e+02 0.000000e+00
+     vertex 1.100000e+02 1.000000e+02 5.000000e+00
+   endloop
+ endfacet
+endsolid shape

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+mkdir 0
+
+echo meshing...
+blockMesh > blockMesh.log
+echo extrude meshing...
+extrudeMesh > extrudeMesh.log
+surfaceFeatureExtract
+snappyHexMesh -overwrite
+
+
+echo Preparing 0 folder...
+rm -fr 0
+cp -r 0.org 0
+
+echo Setting the fields...
+setFields > setFields.log
+
+echo decomposing...
+decomposePar
+
+echo Running...
+mpirun -np 10 olaFlow -parallel > olaFlow.log
+
+echo Simulation complete.

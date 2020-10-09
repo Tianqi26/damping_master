@@ -1,0 +1,57 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      fvOptions;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+/*
+option1
+{
+    type            verticalDamping;
+
+    selectionMode   cellZone;
+    cellZone        outlet;
+
+    lambda          0.3;
+
+    timeStart       0;
+    duration        1e6;
+}
+*/
+
+option1
+{
+    type            isotropicDamping;//verticalDampingDeg; //isotropicDamping;
+
+    selectionMode   all;
+
+    origin          (200 0 0);
+    direction       (1 0 0);
+    scale
+    {
+        type        halfCosineRamp;
+        start       0;
+        duration    200;
+    }
+    
+    value         (1.5 0 0);
+
+    lambda          1;
+
+    timeStart       0;
+    duration        1e6;
+}
+
+
+
+//************************************************************************* //

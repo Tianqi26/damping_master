@@ -1,0 +1,35 @@
+# Wavefront OBJ file written 2020-08-11T21:37:55
+o ground_edgeMesh
+
+# points : 10
+# lines  : 14
+
+# <points count="10">
+v 100 100 0
+v 100 0 0
+v 112 0 7
+v 112 100 7
+v 240 0 7
+v 240 100 7
+v 240 0 0
+v 240 100 0
+v 110 0 5
+v 110 100 5
+# </points>
+
+# <edges count="14">
+l 1 2
+l 2 9
+l 10 1
+l 9 3
+l 3 4
+l 4 10
+l 3 5
+l 5 6
+l 6 4
+l 5 7
+l 7 8
+l 8 6
+l 7 2
+l 1 8
+# </edges>
