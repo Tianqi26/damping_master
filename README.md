@@ -39,3 +39,15 @@ LIB_LIBS = \
     -lmeshTools \
     -lturbulenceModels \
     -lcompressibleTurbulenceModels
+   
+## usage
+add fvOptions file to the constant
+add 
+libs
+(
+    
+    "libfvOptionsDamping.so"
+
+);
+to system/controlDict file
+
